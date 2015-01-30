@@ -112,7 +112,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>PeevedPenguinsAssets/background.png</string>
+							<string>PeevedPenguinsAssets/menubackground.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -182,7 +182,7 @@
 						<key>value</key>
 						<array>
 							<real>279.99996948242188</real>
-							<real>145.00001525878906</real>
+							<real>93.000015258789062</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -474,6 +474,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -546,8 +548,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
