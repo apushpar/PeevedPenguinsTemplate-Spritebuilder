@@ -32,7 +32,7 @@
     [_physicsNode addChild:penguin];
     
     CGPoint launchDirection = ccp(1, 0);
-    CGPoint force = ccpMult(launchDirection, 7000);
+    CGPoint force = ccpMult(launchDirection, 5000);
     [penguin.physicsBody applyForce:force];
     
     self.position = ccp(0,0);
