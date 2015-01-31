@@ -27,6 +27,7 @@
     _physicsNode.debugDraw = TRUE;
     _pullBackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
+    _physicsNode.collisionDelegate = self;
     
 }
 
@@ -82,6 +83,11 @@
 -(void) touchCancelled:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     
     [self releaseCatapult];
+}
+
+-(void) ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    CCLOG(@"Something collided with a seal");
 }
 
 -(void) launchPenguin {
